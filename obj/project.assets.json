@@ -8,24 +8,31 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\franci184548\\.nuget\\packages\\": {}
+    "C:\\Users\\Valney Filho\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Jogo RPG DIO\\dungeonDIO\\dungeonDIO.csproj",
+      "projectUniqueName": "F:\\Jogo RPG DIO\\dungeonDIO\\dungeonDIO.csproj",
       "projectName": "dungeonDIO",
-      "projectPath": "E:\\Jogo RPG DIO\\dungeonDIO\\dungeonDIO.csproj",
-      "packagesPath": "C:\\Users\\franci184548\\.nuget\\packages\\",
-      "outputPath": "E:\\Jogo RPG DIO\\dungeonDIO\\obj\\",
+      "projectPath": "F:\\Jogo RPG DIO\\dungeonDIO\\dungeonDIO.csproj",
+      "packagesPath": "C:\\Users\\Valney Filho\\.nuget\\packages\\",
+      "outputPath": "F:\\Jogo RPG DIO\\dungeonDIO\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\franci184548\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Valney Filho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
