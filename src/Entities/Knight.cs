@@ -2,20 +2,15 @@ namespace dungeonDIO.src.Entities;
 
 public class Knight : Hero
 {
-    public Knight(string _name, int _level, string _heroType) : base(_name, _level, _heroType)
+    public Knight(string _name, int _level) : base(_name, _level)
     {
-        this.Name = _name;
-        this.Level = _level;
-        this.HeroType = _heroType;
+        this.HeroType = "Knight";
+        this.Skill = "Head Break";
+        this.MPSkill = 2;
     }
 
     public override string Attack()
     {
-        return this.Name + " atacou com sua espada";
-    }
-
-    public string Attack(int _bonus)
-    {
-        return this.Name + " atacou com sua espada com bônus de " + _bonus;
+        return this.Name + " atacou com sua espada!";
     }
 }
