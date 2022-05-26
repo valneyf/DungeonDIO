@@ -55,4 +55,9 @@ public abstract class Hero
 
         return $"{this.Name} utilizou sua habilidade \"{this.Skill}\" consumindo {this.MPSkill} de MP";
     }
+
+    public string GetName()
+    {
+        return this.Name;
+    }
 }
