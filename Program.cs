@@ -7,7 +7,6 @@ ConsoleKeyInfo cki;
 
 Hero hero;
 
-// Loop 1
 do
 {
     Clear();
@@ -21,7 +20,6 @@ do
         case ConsoleKey.S:
             CreateHero();
             break;
-        // cki = ConsoleKey.N;
         case ConsoleKey.N:
             WriteLine("\nSaindo da Dungeon DIO... Até a próxima aventura!");
 
